@@ -51,12 +51,12 @@ a{
 /* landing images */
 .landing-img{
     height: 100vh;
-background-image: url(../images/home-vineyard-img.jpg);
+background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/home-vineyard-img.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: top right;
 position: relative;
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); */
 }
 .tagline{
     position: absolute;
@@ -66,6 +66,8 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     align-items: center;
     font-family: 'Calistoga', cursive;
     color: #f1efef;
+    gap: 32px;
+    
 }
 .border{
     width: 150px;
@@ -76,4 +78,12 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-shrink: 0;
+}
+.award{
+    font-size: 20px;
+    padding: 16px;
+}
+.blurb{
+    font-size: 36px;
 }
