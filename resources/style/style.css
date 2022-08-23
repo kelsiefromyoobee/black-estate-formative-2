@@ -1,14 +1,27 @@
+
 body{
     margin: 0;
 }
-.nav-section{
+/* nav */
+header{
     position: fixed;
+    z-index: 9000;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f1efef;
+}
+.nav-section{
+    gap: 32px;
     top: 0%;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 .flex-nav{
+    font-family: 'Calistoga', cursive;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -18,6 +31,11 @@ body{
 }
 .flex-nav li{
     margin: 10px;
+}
+.nav-section .brand{
+    display: block;
+    width: 150px;
+    /* height: 100px; */
 }
 ul li{
     list-style: none;
@@ -29,4 +47,13 @@ ul{
 a{
     color: black;
     text-decoration: none;
+}
+/* landing images */
+.landing-img{
+    height: 100vh;
+background-image: url(../images/home-vineyard-img.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top right;
+display: flex;
 }
