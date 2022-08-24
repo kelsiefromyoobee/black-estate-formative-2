@@ -1,4 +1,11 @@
-
+h1{
+    font-size: 36px;
+    margin: 0;
+}
+h2{
+    font-size: 28px;
+    margin: 0;
+}
 body{
     margin: 0;
 }
@@ -86,4 +93,33 @@ position: relative;
 }
 .blurb{
     font-size: 36px;
+}
+/* vineyards section */
+.green-section{
+    background-color: #14281D;
+    color: #f1efef;
+    text-align: center;
+    justify-content: center;
+   
+}
+.green-section h1{
+    padding: 16px;
+}
+.vineyard-pictures{
+    display: flex;
+    flex-direction: row;
+    color: #f1efef;
+    padding: 2px;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+.vineyard-pictures img{
+height: 25em;
+width: 25em;
+}
+.vineyard-pictures h2{
+    color: #f1efef;
+    padding: 20px;
+    text-decoration: underline;
 }
