@@ -9,6 +9,11 @@ h2{
 body{
     margin: 0;
 }
+    .white-section{
+        background-color: #f1efef;
+
+    }
+
 /* nav */
 header{
     position: fixed;
@@ -127,14 +132,18 @@ width: 25em;
 /* visit us section */
 .flex-wrap{
     display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
     flex-direction: row-reverse;
-    text-align: center;
 }
-.img-wrapper{
-   
-    flex: 1;
+.visit-child{
+flex: 1;
 }
-.text-wrapper{
-    max-width: 300px;
-    flex: 1;
+.img-wrapper img{
+    max-height: 500px;
+    max-width: 550px;
+}
+.text-wrapper p{
+    min-width: 200px;
+    max-width: 500px;
 }
