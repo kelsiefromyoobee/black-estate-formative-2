@@ -130,11 +130,15 @@ width: 25em;
     text-decoration: underline;
 }
 /* visit us section */
+#visit-us{
+    padding: 32px 15px;
+}
 .flex-wrap{
     display: flex;
     max-width: 1200px;
     flex-wrap: wrap;
     flex-direction: row-reverse;
+    align-items: center;
 }
 .visit-child{
 flex: 1;
@@ -146,4 +150,27 @@ flex: 1;
 .text-wrapper p{
     min-width: 200px;
     max-width: 500px;
+}
+.ct-button{
+    max-width: 167px;
+    min-height: 40px;
+    border: #9F7703 solid 1px;
+    border-radius: 36px;
+    background-color: #C59407;
+    align-items: flex-end;
+}
+/* mini shop area  */
+.shop-parent{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    /* align-items: stretch; */
+    min-height: 300px;
+}
+.flex-shop{
+    flex: 1;
+    margin: 5px;
+}
+.flex-shop img{
+    max-width: 306px;
 }
