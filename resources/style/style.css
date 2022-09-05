@@ -166,11 +166,25 @@ flex: 1;
     justify-content: flex-start;
     /* align-items: stretch; */
     min-height: 300px;
+
 }
 .flex-shop{
     flex: 1;
     margin: 5px;
 }
 .flex-shop img{
-    max-width: 306px;
+    max-width: 225px;
+    max-height: 225px;
+}
+#shop{
+    padding: 32px;
+    justify-content: center;
+
+}
+#shop h1{
+    padding: 32px 0;
+}
+.shop-parent a{
+    color: #f1efef;
+    font-size: 28px;
 }
